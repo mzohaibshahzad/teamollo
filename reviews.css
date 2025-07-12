@@ -1,0 +1,96 @@
+* {
+    font-family: "Manrope", sans-serif;
+    box-sizing: border-box;
+}
+
+
+.review-heading {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -2.5%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.reviews-card {
+    max-width: 540px;
+    background-color: #F1F4F8;
+    border-radius: 40px;
+    margin-right: 20px;
+    padding-left: 40px;
+}
+
+.reviews-paragraph {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0%;
+    padding-top: 42px;
+}
+
+.reviews-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.reviews-flex {
+    display: flex;
+    padding-top: 152px;
+}
+
+.reviews-flex-1 {
+    text-align: start;
+    align-items: center;
+    padding: 10px;
+}
+
+.reviews-stars {
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width: 1000px) {
+    .reviews-main {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .reviews-flex{
+        padding-top: 150px;
+    }
+.review-heading{
+    font-size: 45px;
+}
+
+}
+@media screen and (max-width: 800px) {
+    .reviews-main {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .reviews-flex{
+        padding-top: 80px;
+    }
+.review-heading{
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 600px) {
+    .reviews-main {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .reviews-flex{
+        padding-top: 30px;
+    }
+    .reviews-paragraph{
+        font-size: 18px;
+    }
+.review-heading{
+    font-size: 20px;
+}
+}
